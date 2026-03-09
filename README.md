@@ -1,7 +1,7 @@
 # C-CPUShader
-Minimal CPU shader multithreaded renderer written in pure C - raw Win32, no libraries, no abstraction layers. Pixels, threads, and math from scratch.
-I just felt like doing something with C.
-The math library isn't done yet, I just added the functions that I needed for the demo.
+Minimal CPU shader multithreaded renderer written in pure C - raw Win32, no libraries, no abstraction layers. Pixels, threads, and math from scratch.</br>
+I just felt like doing something with C.</br>
+The math library isn't done yet, I just added the functions that I needed for the demo.</br>
 
 ## Compile
 ```bash
