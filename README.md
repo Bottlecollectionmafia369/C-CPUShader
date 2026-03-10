@@ -38,3 +38,6 @@ int main(void)
 ## Screenshots
 <img width="600" height="600" alt="Renderer _ Rendering _ 8 0fps, 125 0ms _ Time _ 191 61s 3_9_2026 6_16_08 PM" src="https://github.com/user-attachments/assets/3687d4c3-d36d-4664-85d7-57085d8ecd13" />
 
+<img width="700" height="450" alt="Renderer _ Rendering _ 21 3fps, 47 0ms _ Time _ 182 14s 3_10_2026 7_42_16 AM" src="https://github.com/user-attachments/assets/329ec804-9ee1-4c0f-a44a-c7dea17d80db" />
+
+
