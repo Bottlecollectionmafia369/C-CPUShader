@@ -6,10 +6,8 @@
             "type": "shell",
             "command": "gcc",
             "args": [
-                "src/main.c",
-                "src/win.c",
-                "src/sphere_tracing.c",
-                "src/defines.c",
+                "src/*.c",
+                "src/shaders/*.c",
                 "-o",
                 "build/bin.exe",
                 "-lgdi32"

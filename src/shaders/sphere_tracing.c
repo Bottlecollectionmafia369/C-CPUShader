@@ -1,6 +1,5 @@
-//Simple Sphere RayTracing Shader
+//Sphere RayTracing Shader
 
-#include "defines.h"
 #include "sphere_tracing.h"
 
 #define MAX_BOUNCES 4
@@ -24,7 +23,7 @@ typedef struct {
     float distance;
 } HitData;
 
-float ray_sphere(vec3_t ro, vec3_t rd, vec3_t so, float sr)
+static float ray_sphere(vec3_t ro, vec3_t rd, vec3_t so, float sr)
 {
     vec3_t v = v3_sub(ro, so);
     float b = 2.0 * v3_dot(rd, v);
@@ -33,7 +32,7 @@ float ray_sphere(vec3_t ro, vec3_t rd, vec3_t so, float sr)
     return (-b - sqrt((b * b) - 4.0 * c)) * 0.5;
 }
 
-uint next_rand(uint* state)
+static uint next_rand(uint* state)
 {
     *state = *state * 747796405 + 2891336453;
     uint result = ((*state >> ((*state >> 28) + 4)) ^ *state) * 277803737;
@@ -41,19 +40,19 @@ uint next_rand(uint* state)
     return result;
 }
 
-float rand_1(uint* state)
+static float rand_1(uint* state)
 {
     return next_rand(state) / 4294967295.0;
 }
 
-float rand_1_nd(uint* state)
+static float rand_1_nd(uint* state)
 {
     float theta = 2 * 3.1415926 * rand_1(state);
     float rho = sqrt(-2 * log(rand_1(state)));
     return rho * cos(theta);
 }
 
-vec3_t rand_dir(uint* state)
+static vec3_t rand_dir(uint* state)
 {
     float x = rand_1_nd(state);
     float y = rand_1_nd(state);
@@ -61,7 +60,7 @@ vec3_t rand_dir(uint* state)
     return v3_normalize(vec3(x, y, z));
 }
 
-HitData intersect(vec3_t ro, vec3_t rd)
+static HitData intersect(vec3_t ro, vec3_t rd)
 {
     HitData hit = {vec3_o(0.0), vec3_o(1.0), vec3_o(0.0), 1.0, 10000.0};
 
@@ -109,7 +108,7 @@ HitData intersect(vec3_t ro, vec3_t rd)
     return hit;
 }
 
-vec3_t trace(vec3_t ro, vec3_t rd, uint* state)
+static vec3_t trace(vec3_t ro, vec3_t rd, uint* state)
 {
     vec3_t ray_light = vec3_o(0.0);
     vec3_t ray_color = vec3_o(1.0);
